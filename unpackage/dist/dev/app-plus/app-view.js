@@ -1061,37 +1061,128 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
+}
+function gz$gwx_2(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
+__WXML_GLOBAL__.ops_cached.$gwx_2=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
+}
+function gz$gwx_3(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
+__WXML_GLOBAL__.ops_cached.$gwx_3=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
+}
+function gz$gwx_4(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
+__WXML_GLOBAL__.ops_cached.$gwx_4=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+}
+function gz$gwx_5(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
+__WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'content'])
 Z([3,'logo'])
 Z([3,'/static/logo.png'])
 Z([3,'text-area'])
 Z([3,'title'])
 Z([a,[[7],[3,'title']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
+Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'color:'],[[7],[3,'activeColor']]],[1,';']],[[2,'+'],[[2,'+'],[1,'font-size:'],[[2,'+'],[[7],[3,'fontSize']],[1,'px']]],[1,';']]])
+Z([3,'666'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+}
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+}
+function gz$gwx_7(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
+__WXML_GLOBAL__.ops_cached.$gwx_7=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./pages/index/index.wxml'];d_[x[0]]={}
+var x=['./pages/home/home.wxml','./pages/home/home/home.wxml','./pages/index/home/home/fabu/fabu/fabu.wxml','./pages/index/home/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/release/release.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
-_rz(z,oB,'class',0,e,s,gg)
-var xC=_mz(z,'image',['class',1,'src',1],[],e,s,gg)
-_(oB,xC)
-var oD=_n('view')
-_rz(z,oD,'class',3,e,s,gg)
-var fE=_n('text')
-_rz(z,fE,'class',4,e,s,gg)
-var cF=_oz(z,5,e,s,gg)
-_(fE,cF)
-_(oD,fE)
-_(oB,oD)
 _(r,oB)
 return r
 }
 e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
+d_[x[1]]={}
+var m1=function(e,s,r,gg){
+var z=gz$gwx_2()
+var oD=_n('view')
+_(r,oD)
+return r
+}
+e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[2]]={}
+var m2=function(e,s,r,gg){
+var z=gz$gwx_3()
+var cF=_n('view')
+_(r,cF)
+return r
+}
+e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[3]]={}
+var m3=function(e,s,r,gg){
+var z=gz$gwx_4()
+var oH=_n('view')
+_(r,oH)
+return r
+}
+e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[4]]={}
+var m4=function(e,s,r,gg){
+var z=gz$gwx_5()
+var oJ=_n('view')
+_rz(z,oJ,'class',0,e,s,gg)
+var lK=_mz(z,'image',['class',1,'src',1],[],e,s,gg)
+_(oJ,lK)
+var aL=_n('view')
+_rz(z,aL,'class',3,e,s,gg)
+var tM=_n('text')
+_rz(z,tM,'class',4,e,s,gg)
+var eN=_oz(z,5,e,s,gg)
+_(tM,eN)
+_(aL,tM)
+var bO=_n('view')
+_rz(z,bO,'style',6,e,s,gg)
+var oP=_oz(z,7,e,s,gg)
+_(bO,oP)
+_(aL,bO)
+_(oJ,aL)
+_(r,oJ)
+return r
+}
+e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+var m5=function(e,s,r,gg){
+var z=gz$gwx_6()
+var oR=_n('view')
+_(r,oR)
+return r
+}
+e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[6]]={}
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
+var cT=_n('view')
+_(r,cT)
+return r
+}
+e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1216,8 +1307,26 @@ setCssToHead([])();setCssToHead([[2,0]],undefined,{path:"./app.wxss"})();
 __wxAppCode__['app.wxss']=setCssToHead([[2,0]],undefined,{path:"./app.wxss"});    
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
+__wxAppCode__['pages/home/home.wxss']=undefined;    
+__wxAppCode__['pages/home/home.wxml']=$gwx('./pages/home/home.wxml');
+
+__wxAppCode__['pages/home/home/home.wxss']=undefined;    
+__wxAppCode__['pages/home/home/home.wxml']=$gwx('./pages/home/home/home.wxml');
+
+__wxAppCode__['pages/index/home/home/fabu/fabu/fabu.wxss']=undefined;    
+__wxAppCode__['pages/index/home/home/fabu/fabu/fabu.wxml']=$gwx('./pages/index/home/home/fabu/fabu/fabu.wxml');
+
+__wxAppCode__['pages/index/home/home/home.wxss']=undefined;    
+__wxAppCode__['pages/index/home/home/home.wxml']=$gwx('./pages/index/home/home/home.wxml');
+
 __wxAppCode__['pages/index/index.wxss']=setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"logo { height: ",[0,200],"; width: ",[0,200],"; margin-top: ",[0,200],"; margin-left: auto; margin-right: auto; margin-bottom: ",[0,50],"; }\n.",[1],"text-area { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"text-area .",[1],"title { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/index.wxss"});    
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
+
+__wxAppCode__['pages/news/news.wxss']=undefined;    
+__wxAppCode__['pages/news/news.wxml']=$gwx('./pages/news/news.wxml');
+
+__wxAppCode__['pages/release/release.wxss']=undefined;    
+__wxAppCode__['pages/release/release.wxml']=$gwx('./pages/release/release.wxml');
 
 ;var __pageFrameEndTime__ = Date.now();
 (function() {

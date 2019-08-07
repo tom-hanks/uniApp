@@ -3,6 +3,7 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
+			<view :style="{color: activeColor, fontSize: fontSize + 'px'}">666</view>
 		</view>
 	</view>
 </template>
@@ -11,7 +12,9 @@
 	export default {
 		data() {
 			return {
-				title: 'Hellosw'
+				title: 'Hellosw',
+				activeColor: 'blue',
+				fontSize: '14'
 			}
 		},
 		onLoad() {
@@ -39,15 +42,14 @@
 		margin-right: auto;
 		margin-bottom: 50upx;
 	}
- 
+
 	.text-area {
 		display: flex;
 		justify-content: center;
+
 		.title {
 			font-size: 36upx;
 			color: #8f8f94;
 		}
 	}
-
-	
 </style>
