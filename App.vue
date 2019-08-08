@@ -1,5 +1,8 @@
 <script>
 	export default {
+		globalData: {  
+		    text: 'text--s'  
+		},  
 		/**
 		 * 应用生命周期仅可在App.vue中监听，在其它页面监听无效。
 		 * 

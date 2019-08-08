@@ -24,12 +24,13 @@
       "list": []
     },
     "miniprogram": {
-      "current": 3,
+      "current": 2,
       "list": [
         {
-          "name": "我的",
+          "name": "消息",
+          "query": "",
           "id": 0,
-          "pathName": "pages/release/release"
+          "pathName": "pages/news/news"
         }
       ]
     }
