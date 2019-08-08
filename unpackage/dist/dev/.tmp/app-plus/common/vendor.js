@@ -1,8 +1,8 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
 /* 0 */
-/*!*************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js ***!
-  \*************************************************************************/
+/*!******************************!*\
+  !*** E:/demo/uniApp/main.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -43,9 +43,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 /* 4 */
-/*!****************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/pages.json ***!
-  \****************************************************************************/
+/*!*********************************!*\
+  !*** E:/demo/uniApp/pages.json ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -70,9 +70,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 /* 11 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
-  \********************************************************************************************************/
+/*!*************************************************************!*\
+  !*** E:/demo/uniApp/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -86,9 +86,9 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /* 15 */,
 /* 16 */,
 /* 17 */
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js?{"page":"pages%2Frelease%2Frelease"} ***!
-  \**************************************************************************************************************/
+/*!*******************************************************************!*\
+  !*** E:/demo/uniApp/main.js?{"page":"pages%2Frelease%2Frelease"} ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -102,9 +102,9 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /* 21 */,
 /* 22 */,
 /* 23 */
-/*!********************************************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js?{"page":"pages%2Fnews%2Fnews"} ***!
-  \********************************************************************************************************/
+/*!*************************************************************!*\
+  !*** E:/demo/uniApp/main.js?{"page":"pages%2Fnews%2Fnews"} ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -118,9 +118,9 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /* 27 */,
 /* 28 */,
 /* 29 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js?{"page":"pages%2Fpersonal%2Fpersonal"} ***!
-  \****************************************************************************************************************/
+/*!*********************************************************************!*\
+  !*** E:/demo/uniApp/main.js?{"page":"pages%2Fpersonal%2Fpersonal"} ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

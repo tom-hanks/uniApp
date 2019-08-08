@@ -79,6 +79,7 @@
         }
       }
     },
+    "arguments": "{\"name\":\"消息\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/news/news\"}",
     "allowsInlineMediaPlayback": true,
     "safearea": {
       "background": "#ffffff",

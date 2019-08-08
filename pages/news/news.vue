@@ -1,6 +1,9 @@
 <template>
 	<view>
-		
+		<text>{{vde}}</text>
+		 <!-- #ifdef APP-PLUS -->
+					<view>{{csw}}</view>
+		<!-- #endif -->
 	</view>
 </template>
 
@@ -8,11 +11,17 @@
 	export default {
 		data() {
 			return {
-				
+				vde:getApp().globalData.text,
+				csw:'c'
 			}
 		},
-		methods: {
-			
+		onLoad() {
+			console.log('csw====',getApp().globalData.text);
+			// #ifdef APP-PLUS
+			var appid = plus.runtime.appid;
+			this.csw = appid;
+			console.log('应用的 appid 为：' + appid);
+			// #endif
 		}
 	}
 </script>
