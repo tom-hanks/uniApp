@@ -1061,6 +1061,8 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'eosfont'])
+Z([3,''])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
 }
 function gz$gwx_2(){
@@ -1081,40 +1083,19 @@ __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
-function gz$gwx_5(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
-__WXML_GLOBAL__.ops_cached.$gwx_5=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'content'])
-Z([3,'logo'])
-Z([3,'/static/logo.png'])
-Z([3,'text-area'])
-Z([3,'title'])
-Z([a,[[7],[3,'title']]])
-Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'color:'],[[7],[3,'activeColor']]],[1,';']],[[2,'+'],[[2,'+'],[1,'font-size:'],[[2,'+'],[[7],[3,'fontSize']],[1,'px']]],[1,';']]])
-Z([3,'666'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
-}
-function gz$gwx_6(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
-__WXML_GLOBAL__.ops_cached.$gwx_6=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
-}
-function gz$gwx_7(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
-__WXML_GLOBAL__.ops_cached.$gwx_7=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
-}
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./pages/home/home.wxml','./pages/home/home/home.wxml','./pages/index/home/home/fabu/fabu/fabu.wxml','./pages/index/home/home/home.wxml','./pages/index/index.wxml','./pages/news/news.wxml','./pages/release/release.wxml'];d_[x[0]]={}
+var x=['./pages/home/home.wxml','./pages/news/news.wxml','./pages/personal/personal.wxml','./pages/release/release.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
+var xC=_n('text')
+_rz(z,xC,'class',0,e,s,gg)
+var oD=_oz(z,1,e,s,gg)
+_(xC,oD)
+_(oB,xC)
 _(r,oB)
 return r
 }
@@ -1122,67 +1103,27 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var oD=_n('view')
-_(r,oD)
+var cF=_n('view')
+_(r,cF)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var cF=_n('view')
-_(r,cF)
+var oH=_n('view')
+_(r,oH)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var oH=_n('view')
-_(r,oH)
-return r
-}
-e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
-var m4=function(e,s,r,gg){
-var z=gz$gwx_5()
 var oJ=_n('view')
-_rz(z,oJ,'class',0,e,s,gg)
-var lK=_mz(z,'image',['class',1,'src',1],[],e,s,gg)
-_(oJ,lK)
-var aL=_n('view')
-_rz(z,aL,'class',3,e,s,gg)
-var tM=_n('text')
-_rz(z,tM,'class',4,e,s,gg)
-var eN=_oz(z,5,e,s,gg)
-_(tM,eN)
-_(aL,tM)
-var bO=_n('view')
-_rz(z,bO,'style',6,e,s,gg)
-var oP=_oz(z,7,e,s,gg)
-_(bO,oP)
-_(aL,bO)
-_(oJ,aL)
 _(r,oJ)
 return r
 }
-e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[5]]={}
-var m5=function(e,s,r,gg){
-var z=gz$gwx_6()
-var oR=_n('view')
-_(r,oR)
-return r
-}
-e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[6]]={}
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-var cT=_n('view')
-_(r,cT)
-return r
-}
-e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
+e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1238,7 +1179,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [[[2,1],],[],];
+var _C= [[[2,1],],["@font-face { font-family: \x27eosfont\x27; src: url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.eot\x27); src: url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.eot?#iefix\x27) format(\x27embedded-opentype\x27),\n  url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.woff2\x27) format(\x27woff2\x27),\n  url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.woff\x27) format(\x27woff\x27),\n  url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.ttf\x27) format(\x27truetype\x27),\n  url(\x27https://at.alicdn.com/t/font_1339310_kvr17qbqybi.svg#eosfont\x27) format(\x27svg\x27); }\n.",[1],"eosfont { font-family: \x22eosfont\x22 !important; font-size: 16px; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\n",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";
@@ -1310,20 +1251,11 @@ __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 __wxAppCode__['pages/home/home.wxss']=undefined;    
 __wxAppCode__['pages/home/home.wxml']=$gwx('./pages/home/home.wxml');
 
-__wxAppCode__['pages/home/home/home.wxss']=undefined;    
-__wxAppCode__['pages/home/home/home.wxml']=$gwx('./pages/home/home/home.wxml');
-
-__wxAppCode__['pages/index/home/home/fabu/fabu/fabu.wxss']=undefined;    
-__wxAppCode__['pages/index/home/home/fabu/fabu/fabu.wxml']=$gwx('./pages/index/home/home/fabu/fabu/fabu.wxml');
-
-__wxAppCode__['pages/index/home/home/home.wxss']=undefined;    
-__wxAppCode__['pages/index/home/home/home.wxml']=$gwx('./pages/index/home/home/home.wxml');
-
-__wxAppCode__['pages/index/index.wxss']=setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"logo { height: ",[0,200],"; width: ",[0,200],"; margin-top: ",[0,200],"; margin-left: auto; margin-right: auto; margin-bottom: ",[0,50],"; }\n.",[1],"text-area { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"text-area .",[1],"title { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/index.wxss"});    
-__wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
-
 __wxAppCode__['pages/news/news.wxss']=undefined;    
 __wxAppCode__['pages/news/news.wxml']=$gwx('./pages/news/news.wxml');
+
+__wxAppCode__['pages/personal/personal.wxss']=undefined;    
+__wxAppCode__['pages/personal/personal.wxml']=$gwx('./pages/personal/personal.wxml');
 
 __wxAppCode__['pages/release/release.wxss']=undefined;    
 __wxAppCode__['pages/release/release.wxml']=$gwx('./pages/release/release.wxml');

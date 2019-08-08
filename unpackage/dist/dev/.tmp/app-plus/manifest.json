@@ -39,8 +39,8 @@
     },
     "statusbar": {
       "immersed": "supportedDevice",
-      "style": "dark",
-      "background": "#F8F8F8"
+      "style": "light",
+      "background": "#009688"
     },
     "usingComponents": true,
     "distribute": {

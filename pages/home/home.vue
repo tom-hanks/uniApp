@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<text class="eosfont">&#xe607;</text>
+		<text class="eosfont">&#xe71f;</text>
 	</view>
 </template>
 

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/release/release",
+    "pages/news/news",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#009688",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "static/image/tab_icon_2.png",
+        "activeIcon": "static/image/tab_icon_1.png"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "name": "发布",
+        "icon": "static/image/tab_icon_4.png",
+        "activeIcon": "static/image/tab_icon_3.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "消息",
+        "icon": "static/image/tab_icon_7.png",
+        "activeIcon": "static/image/tab_icon_6.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "name": "我的",
+        "icon": "static/image/tab_icon_9.png",
+        "activeIcon": "static/image/tab_icon_8.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

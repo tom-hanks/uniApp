@@ -7654,8 +7654,7 @@ createPage(_news.default);
 /* 26 */,
 /* 27 */,
 /* 28 */,
-/* 29 */,
-/* 30 */
+/* 29 */
 /*!****************************************************************************************************************!*\
   !*** C:/Users/chen.shangwei/Desktop/shishi/uniapp/first-uniapp/main.js?{"page":"pages%2Fpersonal%2Fpersonal"} ***!
   \****************************************************************************************************************/
@@ -7666,7 +7665,7 @@ createPage(_news.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _personal = _interopRequireDefault(__webpack_require__(/*! ./pages/personal/personal.vue */ 31));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _personal = _interopRequireDefault(__webpack_require__(/*! ./pages/personal/personal.vue */ 30));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_personal.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
