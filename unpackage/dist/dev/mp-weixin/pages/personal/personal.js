@@ -103,7 +103,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 38));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} //
 //
 //
 //
@@ -116,7 +116,38 @@ var _default =
 
 
   },
-  methods: {} };exports.default = _default;
+  onLoad: function onLoad() {
+
+
+    this.testRequest1();
+    this.testRequest2();
+  },
+  methods: {
+    toPage: function toPage() {
+      // 跳到my的页面  query是传递的参数
+      this.$openPage({
+        name: 'my',
+        query: { id: 123 } });
+
+    },
+
+    // 使用方法一
+    testRequest1: function testRequest1() {var _this = this;
+      this.$minApi.uniapp({ wd: 'uni-app' }).then(function (res) {
+        _this.res = res;
+        console.log(res);
+      }).catch(function (err) {
+        console.log(err);
+      });
+    },
+
+    // 使用方式二
+    testRequest2: function () {var _testRequest = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var res;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.prev = 0;_context.next = 3;return (
+
+                  this.$minApi.uniapp({ wd: 'uni-app' }));case 3:res = _context.sent;
+                console.log(res);_context.next = 10;break;case 7:_context.prev = 7;_context.t0 = _context["catch"](0);
+
+                console.log(_context.t0);case 10:case "end":return _context.stop();}}}, _callee, this, [[0, 7]]);}));function testRequest2() {return _testRequest.apply(this, arguments);}return testRequest2;}() } };exports.default = _default;
 
 /***/ })
 
