@@ -70,6 +70,7 @@ class MinRequest {
   }
 
   get (url, data, options = {}) {
+	  console.log("什么鬼====: " ,options);
     options.url = url
     options.data = data
     options.method = 'GET'
@@ -95,7 +96,11 @@ MinRequest.install = function (Vue) {
   })
   Object.defineProperty(Vue.prototype, '$minApi', {
     get: function () {
-			console.log("Vue: " + Vue._http);
+			console.log("Vueget: " + Vue._http);
+			return Vue._http.apis
+		},
+	post: function () {
+			console.log("Vuepost: " + Vue._http);
 			return Vue._http.apis
 		}
   })

@@ -21,8 +21,11 @@ minRequest.setConfig((config) => {
 
 export default {
   apis: {
-    uniapp (data) {
-      return minRequest.get('/topics', data)
-    }
+    get (url,data) {
+      return minRequest.get(url, data)
+    },
+	post (url,data) {
+	  return minRequest.post(url, data)
+	}
   }
 }
