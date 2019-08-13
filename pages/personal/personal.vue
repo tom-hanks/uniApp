@@ -28,7 +28,7 @@
 		
 			// 使用方法一
 			testRequest1 () {
-				this.$minApi.uniapp({wd: 'uni-app'}).then(res => {
+				this.$minApi.uniapp({page:1,tab:'all'}).then(res => {
 					this.res = res
 					console.log(res)
 				}).catch(err => {
@@ -39,7 +39,7 @@
 			// 使用方式二
 			async testRequest2 () {
 				try {
-					const res = await this.$minApi.uniapp({wd: 'uni-app'})
+					const res = await this.$minApi.uniapp({page:1,tab:'all'})
 					console.log(res)
 				} catch (err) {
 					console.log(err)

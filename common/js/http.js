@@ -14,7 +14,7 @@ minRequest.interceptors.response((response) => {
 
 // 设置默认配置
 minRequest.setConfig((config) => {
-  config.baseURL = 'https://www.baidu.com'
+  config.baseURL = 'https://www.vue-js.com/api/v1'
   return config
 })
 
@@ -22,7 +22,7 @@ minRequest.setConfig((config) => {
 export default {
   apis: {
     uniapp (data) {
-      return minRequest.get('/s', data)
+      return minRequest.get('/topics', data)
     }
   }
 }

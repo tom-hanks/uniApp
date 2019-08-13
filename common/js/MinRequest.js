@@ -87,15 +87,16 @@ class MinRequest {
 MinRequest.install = function (Vue) {
   Vue.mixin({
     beforeCreate: function () {
-			if (this.$options.minRequest) {
-        console.log(this.$options.minRequest)
-				Vue._minRequest = this.$options.minRequest
+		console.log("$options:" +this.$options.http)
+			if (this.$options.http) {
+				Vue._http = this.$options.http
 			}
     }
   })
   Object.defineProperty(Vue.prototype, '$minApi', {
     get: function () {
-			return Vue._minRequest.apis
+			console.log("Vue: " + Vue._http);
+			return Vue._http.apis
 		}
   })
 }
