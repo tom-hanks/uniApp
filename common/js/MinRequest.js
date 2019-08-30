@@ -14,12 +14,23 @@ class MinRequest {
     responseType: 'text'
   }
 
+  // 实例化过后调用的 请求拦截 和 响应拦截器
   interceptors = {
     request: (func) => {
       if (func) {
+		  // 在http.js里面的处理够的数据返回来，下面执行请求的时候需要用
         MinRequest[requestBefore] = func
       } else {
-        MinRequest[requestBefore] = (request) => request
+        // MinRequest[requestBefore] = (request) => request
+		MinRequest[requestBefore] = function (request) {
+			console.log('胡阿尤====',request)
+		  return request;
+		};
+		/*相当于
+		MinRequest[requestBefore] = function (request) {
+		  return request;
+		};
+		*/
       }
       
     },
@@ -43,12 +54,14 @@ class MinRequest {
   static [isCompleteURL] (url) {
     return /(http|https):\/\/([\w.]+\/?)\S*/.test(url)
   }
-
+  //设置默认配置 
   setConfig (func) {
+	  // 传进来的是一个匿名自执行函数把 this[config] 传进去让外部修改默认值
     this[config] = func(this[config])
   }
 
   request (options = {}) {
+	  console.log('options:',options)
     options.baseURL = options.baseURL || this[config].baseURL
     options.dataType = options.dataType || this[config].dataType
     options.url = MinRequest[isCompleteURL](options.url) ? options.url : (options.baseURL + options.url)
@@ -57,23 +70,26 @@ class MinRequest {
     options.method = options.method || this[config].method
 
     options = {...options, ...MinRequest[requestBefore](options)}
-
     return new Promise((resolve, reject) => {
+		// uni.request请求成功触发
       options.success = function (res) {
         resolve(MinRequest[requestAfter](res))
       }
+	  // uni.request请求失败触发
       options.fail= function (err) {
         reject(MinRequest[requestAfter](err))
       }
+	  console.log('shishis====',options)
+	  // uniapp自己的请求方法
       uni.request(options)
     })
   }
 
   get (url, data, options = {}) {
-	  console.log("什么鬼====: " ,options);
     options.url = url
     options.data = data
     options.method = 'GET'
+	console.log("什么鬼====: " ,this);
     return this.request(options)
   }
 
@@ -86,6 +102,7 @@ class MinRequest {
 }
 
 MinRequest.install = function (Vue) {
+	console.log('csw===',Vue)
   Vue.mixin({
     beforeCreate: function () {
 		console.log("$options:" +this.$options.http)
